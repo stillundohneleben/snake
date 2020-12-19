@@ -28,3 +28,14 @@ C:\Users\osolo\Desktop\snake2\snake\obj\Debug\snake.csproj.GenerateResource.cach
 C:\Users\osolo\Desktop\snake2\snake\obj\Debug\snake.csproj.CoreCompileInputs.cache
 C:\Users\osolo\Desktop\snake2\snake\obj\Debug\snake.exe
 C:\Users\osolo\Desktop\snake2\snake\obj\Debug\snake.pdb
+C:\Users\User\source\repos\snake\snake\bin\Debug\snake.exe.config
+C:\Users\User\source\repos\snake\snake\bin\Debug\snake.exe
+C:\Users\User\source\repos\snake\snake\bin\Debug\snake.pdb
+C:\Users\User\source\repos\snake\snake\obj\Debug\snake.csprojAssemblyReference.cache
+C:\Users\User\source\repos\snake\snake\obj\Debug\snake.Form1.resources
+C:\Users\User\source\repos\snake\snake\obj\Debug\snake.Form2.resources
+C:\Users\User\source\repos\snake\snake\obj\Debug\snake.Properties.Resources.resources
+C:\Users\User\source\repos\snake\snake\obj\Debug\snake.csproj.GenerateResource.cache
+C:\Users\User\source\repos\snake\snake\obj\Debug\snake.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\snake\snake\obj\Debug\snake.exe
+C:\Users\User\source\repos\snake\snake\obj\Debug\snake.pdb
