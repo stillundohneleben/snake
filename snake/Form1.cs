@@ -176,6 +176,11 @@ namespace snake
 
         }
 
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void _update(Object myObject, EventArgs eventsArgs)
         {
             moveSnake();
