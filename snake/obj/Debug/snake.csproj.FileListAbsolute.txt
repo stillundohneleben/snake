@@ -39,3 +39,18 @@ C:\Users\User\source\repos\snake\snake\obj\Debug\snake.csproj.GenerateResource.c
 C:\Users\User\source\repos\snake\snake\obj\Debug\snake.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\snake\snake\obj\Debug\snake.exe
 C:\Users\User\source\repos\snake\snake\obj\Debug\snake.pdb
+C:\Users\Моялюбимая Оксаночка\Source\Repos\snake\snake\bin\Debug\snake.exe.config
+C:\Users\Моялюбимая Оксаночка\Source\Repos\snake\snake\bin\Debug\snake.exe
+C:\Users\Моялюбимая Оксаночка\Source\Repos\snake\snake\bin\Debug\snake.pdb
+C:\Users\Моялюбимая Оксаночка\Source\Repos\snake\snake\obj\Debug\snake.csprojAssemblyReference.cache
+C:\Users\Моялюбимая Оксаночка\Source\Repos\snake\snake\obj\Debug\snake.Form1.resources
+C:\Users\Моялюбимая Оксаночка\Source\Repos\snake\snake\obj\Debug\snake.Form2.resources
+C:\Users\Моялюбимая Оксаночка\Source\Repos\snake\snake\obj\Debug\snake.Properties.Resources.resources
+C:\Users\Моялюбимая Оксаночка\Source\Repos\snake\snake\obj\Debug\snake.csproj.GenerateResource.cache
+C:\Users\Моялюбимая Оксаночка\Source\Repos\snake\snake\obj\Debug\snake.csproj.CoreCompileInputs.cache
+C:\Users\Моялюбимая Оксаночка\Source\Repos\snake\snake\obj\Debug\snake.exe
+C:\Users\Моялюбимая Оксаночка\Source\Repos\snake\snake\obj\Debug\snake.pdb
+C:\Users\Моялюбимая Оксаночка\source\repos\snake\snake\bin\Debug\en\snake.resources.dll
+C:\Users\Моялюбимая Оксаночка\source\repos\snake\snake\obj\Debug\snake.Form2.en.resources
+C:\Users\Моялюбимая Оксаночка\source\repos\snake\snake\obj\Debug\en\snake.resources.dll
+C:\Users\Моялюбимая Оксаночка\Source\Repos\snake\snake\obj\Debug\snake.Form1.en.resources
