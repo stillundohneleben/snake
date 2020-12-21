@@ -18,7 +18,7 @@ namespace snake
         private int dirX, dirY;
         private int w = 900;
         private int h = 800;
-        private int sizeOfSides = 40;
+        private int size = 40;
         private int s = 0;
         public Form1()
         {
@@ -33,15 +33,14 @@ namespace snake
             pictureBox2.Visible = false;
             pictureBox1.Visible = false;
             pictureBox3.Visible = false;
-            fruit.Size = new Size(sizeOfSides, sizeOfSides);
+            fruit.Size = new Size(size, size);
             snake[0] = new PictureBox();
             snake[0].Image= pictureBox3.Image;
             snake[0].Location = new Point(201, 201);
-            snake[0].Size = new Size(sizeOfSides - 1, sizeOfSides - 1);
-            snake[0].BackColor = Color.Red;
+            snake[0].Size = new Size(size - 1, size - 1);
             this.Controls.Add(snake[0]);
             generateFruit();
-            timer.Tick += new EventHandler(_update);
+            timer.Tick += new EventHandler(game);
             timer.Interval = 200;
             timer.Start();
             this.KeyDown += new KeyEventHandler(dv);
@@ -109,13 +108,13 @@ namespace snake
                 player.PlaySync();
             }
         }
-        private void moveSnake()
+        private void Snake()
         {
             for (int i = s; i >= 1; i--)
             {
                 snake[i].Location = snake[i - 1].Location;
             }
-            snake[0].Location = new Point(snake[0].Location.X + dirX * (sizeOfSides), snake[0].Location.Y + dirY * (sizeOfSides));
+            snake[0].Location = new Point(snake[0].Location.X + dirX * (size), snake[0].Location.Y + dirY * (size));
             eatItself();
         }
         private void eatItself()
@@ -144,8 +143,7 @@ namespace snake
                 snake[s] = new PictureBox();
                 snake[s].Image = pictureBox3.Image;
                 snake[s].Location = new Point(snake[s - 1].Location.X + 40 * dirX, snake[s - 1].Location.Y - 40 * dirY);
-                snake[s].Size = new Size(sizeOfSides - 1, sizeOfSides - 1);
-                snake[s].BackColor = Color.Red;
+                snake[s].Size = new Size(size - 1, size - 1);
                 this.Controls.Add(snake[s]);
                 System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
                 System.IO.Stream resourcestream = assembly.GetManifestResourceStream(@"snake.nyam.wav");
@@ -159,11 +157,11 @@ namespace snake
         private void generateFruit()
         {
             Random r = new Random();
-            rI = r.Next(0, h - sizeOfSides);
-            int tempI = rI % sizeOfSides;
+            rI = r.Next(0, h - size);
+            int tempI = rI % size;
             rI -= tempI;
-            rJ = r.Next(0, h - sizeOfSides);
-            int tempJ = rJ % sizeOfSides;
+            rJ = r.Next(0, h - size);
+            int tempJ = rJ % size;
             rJ -= tempJ;
             rI++;
             rJ++;
@@ -171,19 +169,14 @@ namespace snake
             this.Controls.Add(fruit);
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void pictureBox2_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void _update(Object myObject, EventArgs eventsArgs)
+        private void game(Object myObject, EventArgs eventsArgs)
         {
-            moveSnake();
+            Snake();
             eatFruit();
             checkBorders();
         }

@@ -54,3 +54,8 @@ C:\Users\Моялюбимая Оксаночка\source\repos\snake\snake\bin\De
 C:\Users\Моялюбимая Оксаночка\source\repos\snake\snake\obj\Debug\snake.Form2.en.resources
 C:\Users\Моялюбимая Оксаночка\source\repos\snake\snake\obj\Debug\en\snake.resources.dll
 C:\Users\Моялюбимая Оксаночка\Source\Repos\snake\snake\obj\Debug\snake.Form1.en.resources
+C:\Users\osolo\source\repos\snake\snake\bin\Debug\en\snake.resources.dll
+C:\Users\osolo\source\repos\snake\snake\obj\Debug\snake.Form2.resources
+C:\Users\osolo\source\repos\snake\snake\obj\Debug\snake.Form1.en.resources
+C:\Users\osolo\source\repos\snake\snake\obj\Debug\snake.Form2.en.resources
+C:\Users\osolo\source\repos\snake\snake\obj\Debug\en\snake.resources.dll
